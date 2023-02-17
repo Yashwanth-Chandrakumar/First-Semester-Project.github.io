@@ -1,0 +1,196 @@
+body{
+    font-family: century gothic,sans-serif;
+   }
+    #first{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    #first:hover{
+        color:hotpink;
+    }
+    #second{
+       margin-left: 100px;
+    }
+    #log{
+        margin-left: 50px;            
+    }
+    #logo{
+        margin-right: 20px;
+        
+    }
+    /* #navbar{
+        height: 70px;
+    } */
+    #navbarNavDropdown{
+        margin-left: 70px;
+    }
+    #navbar{
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+    #ddown:hover{
+        color: hotpink;
+    }
+    body{
+        background-color: black;
+    }
+    #item:hover{
+        background-color: white;
+        color:black;
+    }
+    #menu{
+      background-color: white;
+    }
+    /* #search{
+        color:black;
+        width: 200px;
+    } */
+    #mode{
+        margin-left: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #login{
+        padding-top: 10px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        /* border-radius: 50%; */
+        margin-left: 75px;
+        border-radius: 30px;
+    }
+    #cont{
+        color:white;
+        font-weight: bolder;
+        background-image:linear-gradient(-90deg,
+          rgba(108, 14, 224, 0.65),
+          rgba(240, 55, 166, 1)) , url('bubbles.jpg');
+        border-radius: 10px;
+        
+    }
+    #start{
+      text-align: center;
+      padding-top: 260px;
+      padding-bottom: 310px;
+    }
+    #login2{
+      /* margin-left: 680px;
+      padding-top: 10px;
+        padding-bottom: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 30px; */
+        margin-bottom: 280px;
+        margin-top: 30px;
+        font-size: 30px; 
+        
+
+    }
+    #cont2{
+      background-color: pink;
+      padding-bottom: 35px;
+    }
+    #cont3{
+      background-color:springgreen;
+    }
+    #feat{
+        padding-top: 35px
+    }
+    #contli{
+      color: white;
+      list-style-type: none;
+      display:flex;
+      margin-left: 300px;
+      margin-top: 100px;
+    }
+    #contli li{
+      padding-right: 50px;
+      
+      color:grey;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    #contli li ul li{
+      padding-top: 10px;
+      color:white;
+      list-style-type: none;
+      font-weight: normal;
+    }
+      .footer {
+      background: black;
+      color: white;
+    }
+    .footer .links ul {
+      list-style-type: none;
+    }
+    .footer .links li a {
+      color: white;
+      transition: color 0.2s;
+      text-decoration: none;
+    }
+    .footer .links li a:hover {
+      text-decoration: none;
+      color: #4180cb;
+    }
+    .footer .about-company i {
+      font-size: 25px;
+    }
+    .footer .about-company a {
+      color: white;
+      transition: color 0.2s;
+    }
+    .footer .about-company a:hover {
+      color: #4180cb;
+    }
+    .footer .location i {
+      font-size: 18px;
+    }
+    .footer .copyright p {
+      border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+    #copy{
+      text-align: center;
+    }
+    #prof{
+        background-color: white;
+        margin-left: 100px;
+    }
+    #prof:hover{
+        background-color: aqua;
+        transition: color 1s;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: -65px;
+        border-radius: 10px;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {background-color:rgba(141, 130, 136, 0.6); border-radius: 10px;}
+    #dropdown:hover .dropdown-content {display: block;}
+    #dropdown:hover #prof {background-color: aqua;}
+    .testimonial-card .card-up {
+      height: 120px;
+      overflow: hidden;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+}
+    .testimonial-card .avatar {
+      width: 110px;
+      margin-top: -60px;
+      overflow: hidden;
+      border: 3px solid #fff;
+      border-radius: 50%;
+    }
+    #comm{
+      padding-bottom: 100px;
+    }
